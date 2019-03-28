@@ -1,0 +1,39 @@
+:root {
+    
+    /* esquema monocromático a partir da cor determinada por hue-principal */
+    --hue-principal: 120;
+    
+    --cor-branca: hsl(var(--hue-principal), 20%, 100%);
+    --cor-45p-clara: hsl(var(--hue-principal), 20%, 95%);
+    --cor-40p-clara: hsl(var(--hue-principal), 20%, 90%);
+    --cor-35p-clara: hsl(var(--hue-principal), 20%, 85%);
+    --cor-30p-clara: hsl(var(--hue-principal), 20%, 80%);
+    --cor-25p-clara: hsl(var(--hue-principal), 20%, 75%);
+    --cor-20p-clara: hsl(var(--hue-principal), 20%, 70%);
+    --cor-15p-clara: hsl(var(--hue-principal), 20%, 65%);
+    --cor-10p-clara: hsl(var(--hue-principal), 20%, 60%);
+    --cor-5p-clara: hsl(var(--hue-principal), 20%, 55%);
+    
+    --cor-principal: hsl(var(--hue-principal), 20%, 50%);
+
+    --cor-5p-escura: hsl(var(--hue-principal), 20%, 45%);
+    --cor-10p-escura: hsl(var(--hue-principal), 20%, 40%);
+    --cor-15p-escura: hsl(var(--hue-principal), 20%, 35%);
+    --cor-20p-escura: hsl(var(--hue-principal), 20%, 30%);
+    --cor-25p-escura: hsl(var(--hue-principal), 20%, 25%);
+    --cor-30p-escura: hsl(var(--hue-principal), 20%, 20%);
+    --cor-35p-escura: hsl(var(--hue-principal), 20%, 15%);
+    --cor-40p-escura: hsl(var(--hue-principal), 20%, 10%);
+    --cor-45p-escura: hsl(var(--hue-principal), 20%, 5%);
+    --cor-preta: hsl(var(--hue-principal), 20%, 0%);
+    
+}
+
+h1, h2, h3, h4, h5, h6, p, span, a {
+    color: var(--cor-40p-escura);
+}
+
+input, textarea, select {
+    border-color: var(--cor-20p-clara);
+    color: var(--cor-20p-escura);
+}
