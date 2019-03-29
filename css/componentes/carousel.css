@@ -1,0 +1,21 @@
+.carousel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.carousel:before {
+    content: '\2329';
+    font-size: 3em;
+    position: absolute;
+    background-color: rgba(0,0,0,.1);
+    color: gray;
+}
+
+.carousel:after {
+    content: '\232A';
+    font-size: 3em;
+    position: absolute;
+    background-color: rgba(0,0,0,.1);
+    color: gray;
+}

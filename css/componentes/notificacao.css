@@ -1,0 +1,12 @@
+.notificacao {
+    border-width: 1px;
+    border-style: solid;
+    padding: .5em 1em;
+}
+
+.notificacao:after {
+    content: 'x';
+    position: absolute;
+    top: .5em;
+    right: .5em;
+}

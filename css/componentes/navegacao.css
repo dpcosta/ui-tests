@@ -1,0 +1,21 @@
+.navegacao {
+    padding: .5em 1em .5em .5em;
+    background-color: var(--cor-navegacao-fundo);
+    box-shadow: 0 1px 5px var(--cor-navegacao-sombra);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    position: fixed;
+    width: 97.5vw; /* e qdo não tem barra de rolagem? */
+    margin: 0;
+}
+
+.navegacao * {
+    color: var(--cor-navegacao-frente);
+}
+
+.navegacao .marca {
+    font-variant-caps: all-small-caps;
+    font-size: 1.3em;
+}

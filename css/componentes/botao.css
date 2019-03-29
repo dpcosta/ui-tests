@@ -1,0 +1,32 @@
+.botao {
+    padding: .5em .5em;
+    color: var(--cor-botao-frente);
+    border: 0;
+    border-radius: .3em;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: var(--cor-botao-fundo);
+    background-image: linear-gradient(to bottom, var(--cor-botao-fundo), var(--cor-botao-fundo-gradient-destino));
+}
+
+.botao:hover {
+    text-decoration: none;
+    /* background-color: var(--cor-botao-fundo); */
+    background-image: linear-gradient(to bottom, var(--cor-botao-fundo-gradient-destino), var(--cor-botao-fundo));
+}
+
+.botao.botao-flat {
+    color: var(--cor-botao-fundo);
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid var(--cor-botao-fundo);
+}
+
+.botao.botao-flat:hover {
+    color: var(--cor-botao-frente);
+    background-image: linear-gradient(to bottom, var(--cor-botao-fundo-gradient-destino), var(--cor-botao-fundo));
+}
+
+.botao .botao-transparente {
+    background-color: transparent;
+}

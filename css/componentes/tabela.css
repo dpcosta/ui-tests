@@ -1,14 +1,14 @@
 .tabela {
     display: flex;
     flex-direction: column;
-    background-color: var(--cor-45p-clara);
+    background-color: var(--cor-tabela-fundo);
 }
 
 .tabela .tabela-header {
     font-weight: 700;
-    color: var(--cor-15p-escura);
-    background-color: var(--cor-25p-clara);
-    box-shadow: 0 2px 2px var(--cor-10p-escura);
+    color: var(--cor-tabela-frente-header);
+    background-color: var(--cor-tabela-fundo-header);
+    box-shadow: 0 2px 2px var(--cor-tabela-sombra-header);
     display: flex;
 }
 
@@ -16,14 +16,17 @@
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    color: var(--cor-40p-escura);
+}
+
+.tabela .tabela-corpo * {
+    color: var(--cor-tabela-frente-corpo);
 }
 
 .tabela .linha {
     border-top-style: solid;
     border-top-width: 1px;
-    border-top-color: var(--cor-45p-clara);
-    border-bottom-color: var(--cor-35p-clara);
+    border-top-color: var(--cor-tabela-borda-topo-linha);
+    border-bottom-color: var(--cor-tabela-borda-base-linha);
     border-bottom-style: solid;
     border-bottom-width: 1px;
     display: flex;
@@ -34,14 +37,11 @@
 }
 
 .tabela .linha:hover {
-    background-color: var(--cor-40p-clara);
+    background-color: var(--cor-tabela-fundo-linha-selecionada);
 }
 
 .tabela .linha-selecao {
     width: 1.2em;
-    border-right-width: 1px;
-    border-right-style: solid;
-    border-right-color: var(--cor-45p-clara);
     padding: .5em .5em;
 }
 
@@ -55,9 +55,13 @@
 }
 
 .tabela .tabela-footer {
-    background-color: var(--cor-30p-clara);
+    background-color: var(--cor-tabela-fundo-rodape);
     border-top-style: solid;
     border-top-width: 1px;
-    border-top-color: var(--cor-10p-escura);
+    border-top-color: var(--cor-tabela-borda-topo-rodape);
     padding: .5em 1em;
+}
+
+.tabela .tabela-footer * {
+    color: var(--cor-tabela-frente-rodape);
 }

@@ -26,7 +26,41 @@
     --cor-40p-escura: hsl(var(--hue-principal), 20%, 10%);
     --cor-45p-escura: hsl(var(--hue-principal), 20%, 5%);
     --cor-preta: hsl(var(--hue-principal), 20%, 0%);
+
+    /* para os componentes */
+
+    /* CAIXA */
+    --cor-caixa-borda-topo: white;
+    --cor-caixa-borda-esquerda: white;
+    --cor-caixa-borda-direita: lightgray;
+    --cor-caixa-borda-base: lightgray;
+    --cor-caixa-fundo-container: white;
+    --cor-caixa-fundo-item: #eee;
     
+    /* TABELA */
+    --cor-tabela-fundo: white;
+    --cor-tabela-fundo-linha: white;
+    --cor-tabela-fundo-header: lightgray;
+    --cor-tabela-fundo-linha-selecionada: var(--cor-40p-clara);
+    --cor-tabela-sombra-header: gray;
+    --cor-tabela-frente-header: white;
+    --cor-tabela-frente-corpo: #444;
+    --cor-tabela-borda-topo-linha: var(--cor-45p-clara);
+    --cor-tabela-borda-base-linha: var(--cor-35p-clara);
+    --cor-tabela-fundo-rodape: lightgray;
+    --cor-tabela-borda-topo-rodape: var(--cor-10p-escura);
+    --cor-tabela-frente-rodape: #444;
+
+    /* BOTÃO */
+    --cor-botao-fundo: var(--cor-30p-escura);
+    --cor-botao-frente: var(--cor-45p-clara);
+    --cor-botao-flat-borda: var(--cor-30p-escura);
+    --cor-botao-fundo-gradient-destino: var(--cor-15p-escura);
+
+    /* NAVEGAÇÃO */
+    --cor-navegacao-fundo: var(--cor-40p-escura);
+    --cor-navegacao-frente: var(--cor-45p-clara);
+    --cor-navegacao-sombra: gray;
 }
 
 h1, h2, h3, h4, h5, h6, p, span, a {
